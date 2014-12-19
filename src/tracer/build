@@ -1,0 +1,2 @@
+#!/bin/sh
+schroot -p -c x86 make $*

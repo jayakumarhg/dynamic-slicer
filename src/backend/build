@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export PATH="$HOME/.local/bin:$PATH"
+schroot -p -c x86 make $*
